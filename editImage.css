@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar start */
+
+#navbar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  background-color: black;
+   
+}
+
+#navbar h3{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* navbar ends */
+
+
+
+#canvas{
+    margin-top: 50px;
+    margin-left: 200px;
+    border: 5px solid black;
+  
+}
+
+
+
+.buttons{
+    width: 350px;
+    margin-top: -400px;
+    margin-left: 700px;
+    height: 450px;
+}
+
+#download{
+    margin-top: 350px;
+  width: 300px;
+  height: 50px;
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+}
+#download:hover{
+    background-color: white;
+color: black;
+border: 2px solid black;
+
+
+}
+
+
+select{
+    width: 150px;
+    height: 50px;
+    margin-left: 20px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+select:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+
+
+}
+
+#add-caption-btn1{
+    font-size: 15px;
+    font-weight: 600;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+
+}
+
+#add-caption-btn1:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  
+
+}

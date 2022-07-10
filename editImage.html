@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./editImage.css">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/521/fabric.min.js" integrity="sha512-nPzvcIhv7AtvjpNcnbr86eT6zGtiudLiLyVssCWLmvQHgR95VvkLX8mMpqNKWs1TG3Hnf+tvHpnGmpPS3yJIgw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    
+
+
+    <title>Edit Image</title>
+</head>
+<body>
+
+     <!-- navbar start -->
+     <nav id="navbar">
+        <h3>Name : Vijay Singh</h3>
+        <h3>Email : vijay8869.vs2@gmail.com</h3>
+
+    </nav>
+
+    <!-- navbar ends -->
+
+    <main>
+        <section id="canvas-wrapper">
+            <canvas id="canvas"></canvas>
+
+            <div class="buttons">
+                <button id="add-caption-btn1">Add Caption</button>
+            <select name="shapes" id="object-shapes">
+                <option value="">Select Shape</option>
+                <option value="Triangle">Triangle</option>
+                <option value="Circle">Circle</option>
+                <option value="Rectangle">Rectangle</option>
+                <option value="Polygon">Polygon</option>
+            </select>
+            <button id="download" >Download Image</button>
+
+            </div>
+            
+        </section>
+    </main>
+    
+</body>
+
+
+
+<script src="./editImage.js"></script>
+
+</html>

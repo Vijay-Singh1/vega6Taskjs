@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search App</title>
+    <link rel="stylesheet" href="./index.css">
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+
+    <!-- navbar start -->
+    <nav id="navbar">
+        <h3>Name : Vijay Singh</h3>
+        <h3>Email : vijay8869.vs2@gmail.com</h3>
+
+    </nav>
+
+    <!-- navbar ends -->
+
+    <main>
+        <section id="searchbar-wrapper">
+            <form id="search-form" >
+                <input type="text" id="searchbar" placeholder="Search image by name"/>
+                <button type="submit" id="search-btn"> Search</button>
+            </form>
+        </section>
+
+
+        <section id="images-wrapper">
+
+            <!-- Images-containers injected here dynamically through js -->
+           
+        </section>
+
+    </main>
+
+    
+
+    <script src="./index.js"></script>
+</body>
+</html>
